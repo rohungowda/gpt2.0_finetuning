@@ -1,0 +1,12 @@
+The purpose ofthis repository was attempting to finetune a gpt2.0 model to the task of therapy counseling using a prompt asn response structure, tools and ideas learned:
+
+autoregressive decoding
+transformer architecture
+model freezing
+masking
+Data Preprcessing
+Google Colab- GPU usage
+Pytorch
+MatPlotLib
+ROUGE Scores - rouge-1, rouge-2, rouge-L
+gpt 2.0 training and finetuning experience
