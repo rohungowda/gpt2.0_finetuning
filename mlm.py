@@ -219,10 +219,7 @@ for epoch in range(Epochs):
         loss = loss_fn(loss_logits,actual_ids_b)
         total_loss += loss.item()
 
-        # Backward pass
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
+
 
         if i % (len_data // step_size) == 0:
             print(loss.item())
@@ -259,10 +256,6 @@ for epoch in range(Epochs):
         loss = loss_fn(loss_logits,actual_ids_b)
         total_loss += loss.item()
 
-        # Backward pass
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
 
         if i % (len_data // step_size) == 0:
             print(loss.item())
